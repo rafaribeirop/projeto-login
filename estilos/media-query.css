@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    section#login{
+        width: 80vw;
+    }
+
+    section > div#img{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section > div#form{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media  screen and (min-width:1024px){
+    section#login{
+        width: 950px;
+    }
+
+    section > div#img{
+        float: left;
+        width: 50%;
+        height: 100%;
+        
+    }
+
+    section > div#form{
+        float: right;
+        width: 50%;
+        height:100% ;
+
+    }
+    
+}
