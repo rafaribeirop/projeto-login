@@ -1,8 +1,24 @@
-@charset "UTF_8";
+@charset "UTF-8";
 
 /* Paleta de cores
     Azul: #9DC4E1
     Rosa: #F5B4DC
 */
 
-:root
+*{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+body, html{
+    background-image: linear-gradient(to bottom, #F5B4DC, #9DC4E1);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
