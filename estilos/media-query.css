@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
-@media screen and (min-width:768px) and (max-width:1024px) {
+@media screen and (min-width:768px) and (max-width:1024px) 
+                            /*TABLET*/
+{
     section#login{
         width: 80vw;
+        height: 270px;
+
     }
 
     section > div#img{
@@ -21,6 +25,7 @@
 
     section#login{
         width: 70vw;
+        height: 300px;
     }
 
     section > div#img{
@@ -38,7 +43,8 @@
     }
 
     div#form > p{
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
 
