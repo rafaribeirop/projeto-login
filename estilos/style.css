@@ -21,13 +21,14 @@ body, html{
 main{
     width: 100vw;
     height: 100vh;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 section#login{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+  
     
 
     background-color: white;
@@ -37,7 +38,7 @@ section#login{
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
 
-    transform: translate(-50%, -50%);
+    
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
